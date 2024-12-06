@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: app
+  namespace: pocketbase-starter
+spec:
+  selector:
+    app: app
+  ports:
+    - port: 8090
+      name: app
+      targetPort: 8090
+      protocol: TCP

@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: pocketbase-starter
+  labels:
+    name: pocketbase-starter
