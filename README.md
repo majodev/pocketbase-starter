@@ -65,7 +65,7 @@ Run `CMD+SHIFT+P` `Go: Install/Update Tools` **after** attaching to the containe
 
 ```bash
 docker build . -t pocketbase-starter
-docker run -p 8090:8090 pocketbase-starter
+docker run -v ./pb_data:/app/pb_data -p 8090:8090 pocketbase-starter
 ```
 
 ### Kubernetes deployment
