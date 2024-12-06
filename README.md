@@ -30,7 +30,9 @@ This project makes use of the [Remote - Containers extension](https://code.visua
 Create a new git repository through the GitHub template repository feature ([use this template](https://github.com/majodev/pocketbase-starter/generate)). You will then start with a **single initial commit** in your own repository. 
 
 ```bash
-# Clone your new repository, cd into it, then easily start the docker-compose dev environment through our helper
+# First replace all occurances of 'github.com/majodev/pocketbase-starter' and then 'pocketbase-starter' with your own repository URI and project-name
+
+# Then easily start the docker-compose dev environment through our helper
 ./docker-helper.sh --up
 ```
 
