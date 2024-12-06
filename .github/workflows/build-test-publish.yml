@@ -24,9 +24,6 @@ jobs:
       - name: Create container
         run: docker run -d --env-file $DOCKER_ENV_FILE --name=builder -it ${IMAGE_NAME}-builder:${GITHUB_SHA:8}
 
-      - name: Init Kind
-        run: docker exec builder bash /app/test/init_kind.sh
-
       - name: make tidy
         run: docker exec builder make tidy
 
