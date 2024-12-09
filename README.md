@@ -48,13 +48,11 @@ make all
 make help
 
 # Start the pocketbase dev server pipeline and watch for changes to *.go files
+# In this mode, all changes to *.go files will trigger a rebuild and restart of the service
+# Use this mode also to create migrations from the superadmin UI (which will be automatically added to the ./migrations folder)
 make watch
 
-# Execute all tests
-make test
-
-# Rebuild only after changes to files
-make
+# See further docs here: https://pocketbase.io/docs/go-overview/
 ```
 
 ### Visual Studio Code
