@@ -3,7 +3,7 @@ module github.com/majodev/pocketbase-starter
 go 1.23
 
 require (
-	github.com/pocketbase/pocketbase v0.23.6
+	github.com/pocketbase/pocketbase v0.23.8
 	github.com/stretchr/testify v1.10.0
 )
 
@@ -58,8 +58,8 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	gocloud.dev v0.40.0 // indirect
-	golang.org/x/crypto v0.30.0 // indirect
-	golang.org/x/exp v0.0.0-20241210194714-1829a127f884 // indirect
+	golang.org/x/crypto v0.31.0 // indirect
+	golang.org/x/exp v0.0.0-20241215155358-4a5509556b9e // indirect
 	golang.org/x/image v0.23.0 // indirect
 	golang.org/x/net v0.32.0 // indirect
 	golang.org/x/oauth2 v0.24.0 // indirect
@@ -72,10 +72,10 @@ require (
 	google.golang.org/genproto v0.0.0-20241015192408-796eee8c2d53 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20241206012308-a4fef0638583 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20241209162323-e6fa225c2576 // indirect
-	google.golang.org/grpc v1.68.1 // indirect
+	google.golang.org/grpc v1.69.0 // indirect
 	google.golang.org/protobuf v1.35.2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	modernc.org/gc/v3 v3.0.0-20241004144649-1aea3fae8852 // indirect
+	modernc.org/gc/v3 v3.0.0-20241213165251-3bc300f6d0c9 // indirect
 	modernc.org/libc v1.61.4 // indirect
 	modernc.org/mathutil v1.6.0 // indirect
 	modernc.org/memory v1.8.0 // indirect
