@@ -1,6 +1,6 @@
 # github.com/majodev/pocketbase-starter
 
-Template for extending [Pocketbase](https://pocketbase.io/) with [Go](https://pocketbase.io/docs/go-overview/) in a containerized environment via [VSCode remote containers](https://code.visualstudio.com/docs/remote/containers).
+Template for extending [Pocketbase](https://github.com/pocketbase/pocketbase) with [Go](https://pocketbase.io/docs/go-overview/) in a containerized environment via [VSCode remote containers](https://code.visualstudio.com/docs/remote/containers).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/majodev/pocketbase-starter/blob/master/LICENSE)
 [![Build and Test](https://github.com/majodev/pocketbase-starter/actions/workflows/build-test-publish.yml/badge.svg)](https://github.com/majodev/pocketbase-starter/actions)
