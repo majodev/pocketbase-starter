@@ -3,7 +3,7 @@ module github.com/majodev/pocketbase-starter
 go 1.23
 
 require (
-	github.com/pocketbase/pocketbase v0.24.1
+	github.com/pocketbase/pocketbase v0.24.2
 	github.com/stretchr/testify v1.10.0
 )
 
